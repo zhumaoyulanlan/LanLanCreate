@@ -1,0 +1,15 @@
+package com.lingfeng.model;
+
+import com.lanlan.annotation.ID;
+import com.lanlan.annotation.TableName;
+
+@@importStr@
+
+@TableName("@@tableName@")
+public class @@ModelName@ {
+
+@@fieldStr@
+
+@@getterAndSetterStr@
+
+}

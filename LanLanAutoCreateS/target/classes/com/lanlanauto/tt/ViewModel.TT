@@ -1,0 +1,11 @@
+package @@package@;
+
+@@importStr@
+
+public class @@ModelName@ {
+
+@@fieldStr@
+
+@@getterAndSetterStr@
+
+}

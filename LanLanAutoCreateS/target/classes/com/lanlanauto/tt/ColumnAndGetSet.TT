@@ -1,0 +1,10 @@
+	@@annotation@
+	@@typeaName@ @@columnName@;
+	
+	public @@typeaName@ get@@ColumnName@() {
+		return @@columnName@;
+	}
+	public void set@@ColumnName@(@@typeaName@ @@columnName@) {
+		this.@@columnName@ = @@columnName@;
+	}
+	

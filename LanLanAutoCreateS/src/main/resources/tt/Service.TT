@@ -1,0 +1,8 @@
+package com.lingfeng.service;
+
+import com.lanlan.base.BaseService;
+import com.lingfeng.model.@@ModelName@;
+
+public interface @@ModelName@Service extends BaseService<@@ModelName@>{
+
+}

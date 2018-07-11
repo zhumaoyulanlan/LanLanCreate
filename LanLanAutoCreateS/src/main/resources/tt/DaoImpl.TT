@@ -1,0 +1,13 @@
+package com.lingfeng.dao.impl;
+
+import com.lanlan.base.BaseDaoImpl;
+import com.lingfeng.dao.@@ModelName@Dao;
+import com.lingfeng.model.@@ModelName@;
+
+public class @@ModelName@DaoImpl extends BaseDaoImpl<@@ModelName@> implements @@ModelName@Dao{
+
+	public @@ModelName@DaoImpl() {
+		super(@@ModelName@.class);
+	}
+
+}

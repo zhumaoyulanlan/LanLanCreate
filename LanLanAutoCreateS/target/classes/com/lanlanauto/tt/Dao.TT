@@ -1,0 +1,9 @@
+package com.lingfeng.dao;
+
+import com.lanlanweb.base.BaseDao;
+import com.lingfeng.model.@@ModelName@;
+
+public interface @@ModelName@Dao extends BaseDao<@@ModelName@> {
+	
+
+}

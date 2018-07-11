@@ -1,0 +1,32 @@
+package com.lingfeng.service.impl;
+
+import com.lanlan.base.BaseDao;
+import com.lanlan.base.BaseServiceImpl;
+import com.lingfeng.dao.@@ModelName@Dao;
+import com.lingfeng.model.@@ModelName@;
+import com.lingfeng.service.@@ModelName@Service;
+
+public class @@ModelName@ServiceImpl extends BaseServiceImpl<@@ModelName@> implements @@ModelName@Service{
+
+	private @@ModelName@Dao @@modelName@Dao;
+	
+	public @@ModelName@ServiceImpl() {
+		super();
+	}
+	
+	public @@ModelName@ServiceImpl(BaseDao<@@ModelName@> dao) {
+		super(dao);
+	}
+
+	public @@ModelName@Dao get@@ModelName@Dao() {
+		return @@modelName@Dao;
+	}
+
+	public void set@@ModelName@Service(@@ModelName@Dao @@modelName@Dao) {
+		super.setDao(@@modelName@Dao);
+		this.@@modelName@Dao = @@modelName@Dao;
+	}
+	
+	
+
+}
